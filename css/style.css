@@ -1,0 +1,460 @@
+/* Global CSS Start */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+::selection{
+    background-color:orange;
+    color: black
+}
+html{
+    scroll-behavior: smooth;
+    background-color: #d8d8d8;
+}
+
+body{
+    background-color: black;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+/* Global CSS End */
+
+/* Navbar Start */
+
+
+nav{
+    background-color: #343535;
+    height: 55px;
+    position: sticky;
+    top: 0;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #949696;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 0.9rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.navbar-nav .dropdown-menu {
+    color: #949696;
+    background-color: #d8d8d8;
+
+}
+
+
+
+.navbar-light .navbar-brand{
+    color: white;
+    text-transform: capitalize;
+    font-size: 1.7rem;
+    line-height: 1.7rem;
+}
+
+.navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:active{
+    color: white;
+}
+
+
+.navbar-collapse {
+    background-color: #343535;
+}
+
+/* Navbar End */
+
+
+/* Header Start */
+
+header{
+    background-image: url(../images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
+    background-position: center ;
+    height: 100vh;
+}
+
+
+header .overlay{
+    background-color: rgba(0,0,0,0.4);
+    height: 100%;
+    width: 100%;
+}
+
+header .content{
+    width: 90%;
+    margin: auto;
+    padding-top: 150px;
+}
+
+header .content h1{
+    font-size: 80px;
+    font-weight: 100;
+}
+
+header .content h2{
+    font-size: 65px;
+    font-weight: 100;
+    font-family: 'Righteous', cursive;
+    text-transform: uppercase;
+}
+
+@media(max-width: 576px){
+    header .content h2{
+        font-size: 35px;
+    }
+}
+
+@media(max-height: 400px){
+    header .content {
+        padding-top: 0px;
+    }
+}
+
+header .content h3{
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+
+header .content a{
+    font-size: 15px;
+    padding: 6px 20px;
+    text-decoration: none;
+    transition: all 0.25s ease-in-out;
+    margin: 0px 6px;
+}
+
+
+
+header .content a:first-of-type{
+    color: white;
+    border-radius: 20px;
+    background-color: rgb(20, 115, 230);
+}
+
+header .content a:first-of-type:hover{
+    background-color: rgb(0, 86, 192);
+}
+
+header .content a:last-of-type{
+    color: white;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+header .content a:last-of-type:hover{
+    background-color: white;
+    color: #b2b2b0;
+}
+/* Navbar End */
+
+
+
+/* Some-Text End */
+
+#some-text{
+    height: 250px;
+    width: 100%;
+    padding-top: 70px;
+}
+
+@media(max-width: 768px){
+    #some-text{
+        margin-bottom: 70px;
+    }
+}
+
+#some-text h3{
+    font-size: 36px;
+}
+
+
+#some-text p{
+    font-size: 16px;
+    padding: 2px;
+}
+/* Some-Text End */
+
+
+/* Girly Start*/
+
+#girly{
+    position: relative;
+}
+
+#girly img{
+    width: 100%;
+}
+
+
+#girly .girly-text{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media(max-width:768px){
+    #girly .girly-text{
+        position: static;
+        transform: translateY(20%);
+    }
+}
+
+
+#girly h3{
+    font-weight: 200;
+    font-size: 38px;
+    margin-top: 10px;
+}
+
+#girly p{
+    margin-top: 300px;
+    width: 75%;
+    margin: auto;
+    font-size: 16px;
+}
+
+/* Girly End*/
+
+
+
+
+/* Spidey Start*/
+
+#spidey{
+    position: relative;
+    margin-top: 120px;
+}
+
+#spidey img{
+    width: 100%;
+}
+
+
+
+#spidey .spidey-text{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media(max-width:768px){
+    #spidey .spidey-text{
+        position: static;
+        transform: translateY(20%);
+    }
+}
+
+
+#spidey h3{
+    font-weight: 200;
+    font-size: 38px;
+    margin-top: 10px;
+}
+
+#spidey p{
+    margin-top: 300px;
+    width: 75%;
+    margin: auto;
+    font-size: 16px;
+}
+
+/* Spidey End*/
+
+
+
+
+
+/* Nerdy Start*/
+
+#nerdy{
+    position: relative;
+    margin-top: 120px;
+}
+
+#nerdy img{
+    width: 100%;
+}
+
+
+
+#nerdy .nerdy-text{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media(max-width:768px){
+    #nerdy .nerdy-text{
+        position: static;
+        transform: translateY(20%);
+    }
+}
+
+
+#nerdy h3{
+    font-weight: 200;
+    font-size: 38px;
+    margin-top: 10px;
+}
+
+#nerdy p{
+    margin-top: 300px;
+    width: 75%;
+    margin: auto;
+    font-size: 16px;
+}
+
+/* Nerdy End*/
+
+
+
+/* Cartoon Start*/
+
+#cartoon{
+    position: relative;
+    margin-top: 120px;
+}
+
+#cartoon img{
+    width: 100%;
+}
+
+
+
+#cartoon .cartoon-text{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media(max-width:768px){
+    #cartoon .cartoon-text{
+        position: static;
+        transform: translateY(20%);
+    }
+}
+
+
+#cartoon h3{
+    font-weight: 200;
+    font-size: 38px;
+    margin-top: 10px;
+}
+
+#cartoon p{
+    margin-top: 300px;
+    width: 75%;
+    margin: auto;
+    font-size: 16px;
+}
+
+/* Cartoon End*/
+
+
+
+
+/* Icons End*/
+
+#icons{
+    width: 80%;
+    margin: 120px auto 0;
+}
+
+#icons .icon{
+
+}
+
+#icons h3{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 100px;
+}
+
+#icons img{
+    margin-bottom: 20px;
+    max-width: 100%;
+    height: 90px;
+    transition: all 0.5s ease-in-out;
+}
+
+#icons img:hover{
+    transform: scale(1.2);
+    transform: translateY(-15px);
+}
+
+#icons h4{
+    font-size: 1rem;
+}
+
+#icons p{
+    font-size: 0.9rem;
+}
+
+#icons a{
+    font-size: 15px;
+    padding: 6px 0px;
+    text-decoration: none;
+    transition: all 0.25s ease-in-out;
+    margin-bottom: 30px;
+    display: block;
+    color: white;
+    border-radius: 20px;
+    background-color: rgb(20, 115, 230);
+    max-width: 150px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#icons a:hover{
+    background-color: rgb(0, 86, 192);
+}
+/* Icons End*/
+
+
+
+
+
+header .content a:first-of-type{
+    color: white;
+    border-radius: 20px;
+    background-color: rgb(20, 115, 230);
+}
+
+/* Footer End*/
+
+footer{
+    background-color: #343535;
+    color: white;
+    padding: 20px;
+    font-weight: 100;
+    margin-top: 100px;
+}
+
+footer h6{
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+footer p{
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+
+
+
+/* Footer End*/
